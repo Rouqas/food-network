@@ -5,15 +5,24 @@ h1{
     font-size: 65px;
     color: #504d4d;
 }
+h2{
+    font-size: 40px;
+    color: #757373;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+}
 .half-width{
     width: 50%;
     margin: 20px 40px;
+    padding: 30px;
 }
 .intro p{
-    color: #8f8b8b;
+    color: #c0acac;
 }
 .half-width img{
-    width: 90%;
+    width: 110%;
 }
 .flexible-container{
     display: flex;
@@ -22,5 +31,49 @@ h1{
     color: #ff7300;
 }
 .button{
-    
+   text-decoration: none;
+   color: white;
+   background-image: linear-gradient(#ff9a47,tomato);
+   padding: 10px 20px;
+   border-radius: 20px;
+}
+.about-me{
+    background-image: url(images/Frame\ 57.jpg);
+}
+.recipie{
+    text-align: center;
+    padding: 0px 350px;
+}
+.fix-width{
+    width: 60%;
+    margin: 2% 3%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px #b1afaf;
+    border-radius: 20px;
+
+}
+.fix-width img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.followers h1{
+    font-size: 50px;
+    color: black;
+}
+.followers{
+    box-shadow: 10px 10px 30px #b1afaf;
+    border-radius: 20px;
+    margin: 50px;
+}
+.followers-map{
+    padding: 0% 10%;
+
+}
+footer{
+    background-color: #06021a;
+    color: gray;
+    height: 240px;
+    text-align: center;
+    padding: 15px;
 }
